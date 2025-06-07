@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Ejemplo</title>
+    <style>
+        /* Aquí va el CSS para darle estilo a nuestra página */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a Mi fuking pagina donde todo es posible    </h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca-de">Acerca de</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="inicio" class="section">
+            <h2>Inicio</h2>
+            <p>SI SABIAS QUE UNA PERSONA EN REPOSO QUEMA ALREDEDOR DE 100 CALORIAS Y UNA PERSONA QUE ESTA EN CONSTANTE MOVIMIENTO OCILANDO LA MANO EMPINANDOSE UNA CAWAZAKI QUEMA MAS DE 25000 CALORIAS.</p>
+            <p>¡Explora las diferentes secciones para aprender más!</p>
+            <button onclick="mostrarMensaje()">Haz clic aquí</button>
+        </section>
+
+        <section id="acerca-de" class="section">
+            <h2>Acerca de Nosotros</h2>
+            <p>Somos un equipo dedicado a crear contenido útil y educativo para todos. Nuestra misión es simplificar el aprendizaje de nuevas tecnologías.</p>
+            <p>Nos encanta el desarrollo web y queremos compartir nuestros conocimientos contigo.</p>
+        </section>
+
+        <section id="servicios" class="section">
+            <h2>Nuestros Servicios</h2>
+            <ul>
+                <li>Desarrollo Web (HTML, CSS, JavaScript)</li>
+                <li>Consultoría de Diseño</li>
+                <li>Optimización SEO</li>
+                <li>Soporte Técnico</li>
+            </ul>
+        </section>
+
+        <section id="contacto" class="section">
+            <h2>Contáctanos</h2>
+            <p>¿Tienes alguna pregunta o necesitas ayuda? No dudes en contactarnos.</p>
+            <address>
+                Email: <a href="mailto:info@ejemplo.com">info@ejemplo.com</a><br>
+                Teléfono: (55) 1234-5678
+            </address>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Mi Página de Ejemplo. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Aquí va el JavaScript para añadir interactividad
+        function mostrarMensaje() {
+            alert("¡Gracias por hacer clic! Esto es JavaScript en acción.");
+        }
+    </script>
+
+</body>
+</html>
